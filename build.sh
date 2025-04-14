@@ -1,12 +1,12 @@
 jpackage \
---input /home/elie/Java/NetBeans/nytCrosswordSelector/. \
+--input /home/elie/Java/NetBeans/nyt-generator/. \
 --name NYT \
---main-jar /home/elie/Java/NetBeans/nytCrosswordSelector/target/nytCrosswordSelector-1.0-SNAPSHOT.jar \
+--main-jar /home/elie/Java/NetBeans/nyt-generator/builds/1.0.0.jar \
 --main-class monnickendam.com.nytcrosswordselector.main \
 --type DEB \
 --linux-shortcut \
 --linux-deb-maintainer elie@monnickendam.ch \
---icon /home/elie/Java/NetBeans/nytCrosswordSelector/mini.png \
+--icon /home/elie/Java/NetBeans/nyt-generator/mini.png \
 --linux-app-release 1.0.0 \
 --install-dir /opt/NYT \
 --verbose
