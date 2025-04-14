@@ -1,12 +1,14 @@
+# REPLACE WITH YOUR DATA
+
 jpackage \
---input /home/elie/Java/NetBeans/nyt-generator/. \
+--input /path/to/project/. \
 --name NYT \
---main-jar /home/elie/Java/NetBeans/nyt-generator/builds/1.0.0.jar \
---main-class monnickendam.com.nytcrosswordselector.main \
+--main-jar /path/to/jar.jar \
+--main-class owner.package.main \
 --type DEB \
 --linux-shortcut \
---linux-deb-maintainer elie@monnickendam.ch \
---icon /home/elie/Java/NetBeans/nyt-generator/mini.png \
+--linux-deb-maintainer your@email.domain \
+--icon /path/to/mini.png \
 --linux-app-release 1.0.0 \
 --install-dir /opt/NYT \
 --verbose
