@@ -1,2 +1,8 @@
 # Ignore build dir
 builds/
+
+# Ignore JAR builds
+target/
+
+# Ignore .jar files
+*.jar
