@@ -4,18 +4,17 @@ Generates links for the NewYorkTimes Mini Crosswords
 Instead of paying for the NYTimes minis archive, I made a simple UI to generate a link for each and every mini available.
 
 <style>
-  .centered {
+  
+</style>
+
+<div style="
     display: flex;
     flex-direction: column;
     justify-content: center; /* horizontal */
     align-items: center;     /* vertical */
     height: 200px;           /* full viewport height */
     margin: 0 auto;
-    width: fit-content;
-  }
-</style>
-
-<div class="centered">
+    width: fit-content;">
     <p>Screenshot of v1.0.0</p>
     <img src="v1.0.0.png" width="200px" >
 </div>
