@@ -1,14 +1,10 @@
+<img src="banner.png" >
+
 # nyt-generator
 Generates links for the NewYorkTimes Mini Crosswords
 
 Instead of paying for the NYTimes minis archive, I made a simple UI to generate a link for each and every mini available.
 
-
-
-<p align="center" >
-    <p>Screenshot of v1.0.0</p>
-    <img src="v1.0.0.png" width="200px" >
-</p>
 ---
 
 ## to-do
